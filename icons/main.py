@@ -154,7 +154,7 @@ def main(page: ft.Page):
         await asyncio.sleep(0.5)  # Задержка для плавного перехода
 
     top_appbar = ft.AppBar(
-        title=ft.Text("KIVI Retail DEV", size=32, weight=ft.FontWeight.BOLD, color=ft.Colors.BLUE_600),
+        title=ft.Text(" Retail DEV", size=32, weight=ft.FontWeight.BOLD, color=ft.Colors.BLUE_600),
         actions=[
             ft.IconButton(ft.CupertinoIcons.INFO, style=ft.ButtonStyle(padding=0))
         ],
